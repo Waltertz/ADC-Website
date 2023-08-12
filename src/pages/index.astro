@@ -26,27 +26,34 @@ import Layout from "../layouts/Layout.astro";
     >
       <div
         class="carousel-item active"
-        style="background-image: url(assets/img/hero-carousel/hero-carousel-1.jpg)"
-      >
-      </div>
-      <div
-        class="carousel-item"
-        style="background-image: url(assets/img/hero-carousel/hero-carousel-2.jpg)"
-      >
-      </div>
-      <div
-        class="carousel-item"
-        style="background-image: url(assets/img/hero-carousel/hero-carousel-3.jpg)"
-      >
-      </div>
-      <div
-        class="carousel-item"
-        style="background-image: url(assets/img/hero-carousel/hero-carousel-4.jpg)"
-      >
-      </div>
-      <div
-        class="carousel-item"
         style="background-image: url(assets/img/hero-carousel/hero-carousel-5.jpg)"
+      >
+      </div>
+      <div
+        class="carousel-item"
+        style="background-image: url(assets/img/hero-carousel/hero-carousel-6.jpg)"
+      >
+      </div>
+
+      <div
+        class="carousel-item"
+        style="background-image: url(assets/img/hero-carousel/hero-carousel-7.jpg)"
+      >
+      </div>
+      <div
+        class="carousel-item active"
+        style="background-image: url(assets/img/hero-carousel/hero-carousel-8.jpg)"
+      >
+      </div>
+      <div
+        class="carousel-item"
+        style="background-image: url(assets/img/hero-carousel/hero-carousel-9.jpg)"
+      >
+      </div>
+
+      <div
+        class="carousel-item"
+        style="background-image: url(assets/img/hero-carousel/hero-carousel-10.jpg)"
       >
       </div>
 
@@ -592,6 +599,7 @@ import Layout from "../layouts/Layout.astro";
               <li data-filter=".filter-remodeling">Energy</li>
               <li data-filter=".filter-construction">Women Led</li>
               <li data-filter=".filter-repairs">Agribusiness</li>
+              <li data-filter=".youth">Youth</li>
             </ul><!-- End Projects Filters -->
 
             <div
@@ -892,12 +900,180 @@ import Layout from "../layouts/Layout.astro";
                   </div>
                 </div>
               </div><!-- End Projects Item -->
+
+
+              <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+                <div class="portfolio-content h-100">
+                  <img
+                    src="assets/img/projects/kasole1.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="portfolio-info">
+                    <h4>Women Led</h4>
+                    <p>Kasole</p>
+                    <a
+                      href="women-led"
+                      title="More Details"
+                      class="details-link"><i class="bi bi-three-dots"></i></a
+                    >
+                  </div>
+                </div>
+              </div><!-- End Projects Item -->
+
+
+
+              
+              <div class="col-lg-4 col-md-6 portfolio-item youth">
+                <div class="portfolio-content h-100">
+                  <img
+                    src="assets/img/projects/tef.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="portfolio-info">
+                    <h4>Youth</h4>
+                    <p>TEF</p>
+                    <a
+                      href="agribusines-details"
+                      title="More Details"
+                      class="details-link"><i class="bi bi-three-dots"></i></a
+                    >
+                  </div>
+                </div>
+              </div><!-- End Projects Item -->
             </div><!-- End Projects Container -->
           </div>
         </div>
       </section>
 
-      <!--  <section id="blog" class="blog">
+      <section id="recent-blog-posts" class="recent-blog-posts">
+        <div class="container" data-aos="fade-up">
+          <div class="section-header">
+            <h2>News</h2>
+            
+          </div>
+
+          <div class="row gy-5">
+            <div
+              class="col-xl-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="post-item position-relative h-100">
+                <div class="post-img position-relative overflow-hidden">
+                  <img
+                    src="assets/img/blog/news2.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <span class="post-date">July 28th 2023 </span>
+                </div>
+
+                <div class="post-content d-flex flex-column">
+                  <h3 class="post-title">
+                    Grantees Workshop
+                  </h3>
+
+                  <div class="meta d-flex align-items-center">
+                    <p> Together with grantees, we managed to attend some traings as we visited SUGECO company </p>
+                    <!-- <div class="d-flex align-items-center">
+                      <i class="bi bi-person"></i>
+                      <span class="ps-2">Julia Parker</span>
+                    </div>
+                    <span class="px-3 text-black-50">/</span>
+                    <div class="d-flex align-items-center">
+                      <i class="bi bi-folder2"></i>
+                      <span class="ps-2">Politics</span>
+                    </div> -->
+                  </div>
+
+                  <hr />
+
+                  <a href="https://www.linkedin.com/posts/adc-tanzania_we-are-excited-to-host-the-first-usadf-adc-activity-7087751509010001920-hDCl?utm_source=share&utm_medium=member_desktop" class="readmore stretched-link">
+                   
+                    <span>Read More</span><i class="bi bi-arrow-right"></i></a
+                  >
+                </div>
+              </div>
+            </div><!-- End post item -->
+
+            <div
+              class="col-xl-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="post-item position-relative h-100">
+                <div class="post-img position-relative overflow-hidden">
+                  <img
+                    src="assets/img/blog/news3.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <span class="post-date">July 27th 2023 </span>
+                </div>
+
+                <div class="post-content d-flex flex-column">
+                  <h3 class="post-title">
+                    Grantees Workshop
+                  </h3>
+
+                  <div class="meta d-flex align-items-center">
+                    <p> "Had to squeeze these shots amidst all the excitement at today's ....  </p>
+                   
+                  </div>
+
+                  <hr />
+
+                  <a href="https://www.linkedin.com/posts/adc-tanzania_we-are-excited-to-host-the-first-usadf-adc-activity-7087751509010001920-hDCl?utm_source=share&utm_medium=member_desktop" class="readmore stretched-link">
+                   
+                    <span>Read More</span><i class="bi bi-arrow-right"></i></a
+                  >
+                </div>
+              </div>
+            </div><!-- End post item -->
+
+            <div
+            class="col-xl-4 col-md-6"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="post-item position-relative h-100">
+              <div class="post-img position-relative overflow-hidden">
+                <img
+                  src="assets/img/blog/news1.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <span class="post-date">July 26th 2023 </span>
+              </div>
+
+              <div class="post-content d-flex flex-column">
+                <h3 class="post-title">
+                  Grantees Workshop
+                </h3>
+
+                <div class="meta d-flex align-items-center">
+                  <p> We are excited to host the first USADF-ADC Workshop in Morogoro, Tanzania, where USADF grantee cooperative societies unite!
+
+                    More than 20 representatives from 6 Cooperative Societies will participate representing ...</p>
+                 
+                </div>
+
+                <hr />
+
+                <a href="https://www.linkedin.com/posts/adc-tanzania_we-are-excited-to-host-the-first-usadf-adc-activity-7087751509010001920-hDCl?utm_source=share&utm_medium=member_desktop" class="readmore stretched-link">
+                 
+                  <span>Read More</span><i class="bi bi-arrow-right"></i></a
+                >
+              </div>
+            </div>
+          </div><!-- End post item -->
+          </div>
+        </div>
+      </section>
+
+      <!-- <section id="blog" class="blog">
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row g-5">
@@ -908,7 +1084,7 @@ import Layout from "../layouts/Layout.astro";
             </div>
       
         
-          <div class="col-lg-12">
+          <div class="col-lg-6">
 
             <div class="sidebar">
 
@@ -922,8 +1098,8 @@ import Layout from "../layouts/Layout.astro";
                   <div class="post-item mt-3">
                     <img src="assets/img/meeting.jpg" alt="">
                     <div>
-                      <h4><a href="blog-details">Establishing new project</a></h4>
-                      <time datetime="2020-01-01">oct 13, 2022</time>
+                      <h4><a href="https://www.linkedin.com/posts/adc-tanzania_aight-folks-lets-admit-it-that-workshop-activity-7091704111326257152-O55q?utm_source=share&utm_medium=member_desktop">Grantees Workshop</a></h4>
+                      <time>July 26-28, 2022</time>
                     </div>
                   </div>
 
