@@ -210,4 +210,6 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 });
-
+document.getElementById("autoplay-video").addEventListener("loadeddata", function() {
+  this.play();
+});

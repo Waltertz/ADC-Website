@@ -3141,3 +3141,21 @@ section {
     transition-delay: 500ms;
   }
 }
+/* video for homepage */
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  overflow: hidden;
+}
+
+#autoplay-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Fit the entire video within the container without cropping */
+  opacity: 1;
+}

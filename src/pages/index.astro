@@ -18,13 +18,31 @@ import Layout from "../layouts/Layout.astro";
       </div>
     </div>
 
-    <div
+     <div
       id="hero-carousel"
       class="carousel slide"
       data-bs-ride="carousel"
       data-bs-interval="5000"
     >
-      <div
+    <!--<div class="carousel-item active">
+    <video controls width="100%" height="450px" >
+      <video> 
+        <source src="assets/img/hero-carousel/grantee.mp4" type="video/mp4">
+      
+    </video>
+  </div> -->
+
+  <div class="carousel-item active">
+    <div class="video-container">
+      <video id="autoplay-video" autoplay loop muted>
+        <source src="assets/img/hero-carousel/grantee.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+  
+
+      <!-- <div
         class="carousel-item active"
         style="background-image: url(assets/img/hero-carousel/hero-carousel-5.jpg)"
       >
@@ -55,9 +73,9 @@ import Layout from "../layouts/Layout.astro";
         class="carousel-item"
         style="background-image: url(assets/img/hero-carousel/hero-carousel-10.jpg)"
       >
-      </div>
+      </div> -->
 
-      <a
+      <!-- <a
         class="carousel-control-prev"
         href="#hero-carousel"
         role="button"
@@ -77,8 +95,11 @@ import Layout from "../layouts/Layout.astro";
         <span
           class="carousel-control-next-icon bi bi-chevron-right"
           aria-hidden="true"></span>
-      </a>
-    </div>
+      </a> -->
+    
+
+  
+  </div>
   </section><!-- End Hero Section -->
 
   <main id="main">
@@ -1005,12 +1026,13 @@ import Layout from "../layouts/Layout.astro";
             >
               <div class="post-item position-relative h-100">
                 <div class="post-img position-relative overflow-hidden">
-                  <img
+                  <!-- <img
                     src="assets/img/blog/news3.jpg"
                     class="img-fluid"
                     alt=""
-                  />
-                  <span class="post-date">July 27th 2023 </span>
+                  /> -->
+
+                  <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7097200673984786432?compact=1" height="399" width="710" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>                  <span class="post-date">July 27th 2023 </span>
                 </div>
 
                 <div class="post-content d-flex flex-column">
