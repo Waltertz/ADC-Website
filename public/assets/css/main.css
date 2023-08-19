@@ -276,7 +276,7 @@ section {
   top: 0;
   left: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.3); 
+  background-color: rgba(0, 0, 0, 0.5); 
   background-size: 10px;
 }
 
@@ -1909,7 +1909,7 @@ section {
 .hero .carousel-item::before {
   content: "";
   /* background-color: rgba(0, 0, 0, 0.7); */
-  background-color: rgb(82,86,94, 0.4);
+  /* background-color: rgb(82,86,94, 0.4); */
   position: absolute;
   inset: 0;
 }
@@ -3145,7 +3145,6 @@ section {
 .video-container {
   position: relative;
   width: 100%;
-  height: 0;
   padding-bottom: 56.25%; /* 16:9 aspect ratio */
   overflow: hidden;
 }
@@ -3155,7 +3154,7 @@ section {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
-  object-fit: contain; /* Fit the entire video within the container without cropping */
+  height: 100%; /* Ensure the video takes the full height of the container */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
   opacity: 1;
 }
